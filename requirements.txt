@@ -1,0 +1,20 @@
+# ============================================
+# AI Request Processing Workflow - Dependencies
+# ============================================
+
+# --- AI / LLM ---
+groq==0.25.0                  # Groq SDK (OpenAI-compatible) for Llama 3.3 70B
+
+# --- Web UI ---
+streamlit==1.45.0             # Frontend framework: forms, dashboard, charts
+
+# --- Data Validation ---
+pydantic==2.11.3              # Type-safe data models with validation
+
+# --- Data & Visualization ---
+pandas==2.2.3                 # DataFrames for batch processing & audit trail display
+plotly==6.1.2                 # Interactive charts for the dashboard
+
+# --- Utilities ---
+python-dotenv==1.1.0          # Load API keys from .env file
+uuid6==2024.7.10              # Generate unique case IDs

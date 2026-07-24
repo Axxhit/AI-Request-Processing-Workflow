@@ -1,0 +1,152 @@
+[
+    {
+        "id": "sample_001",
+        "text": "I was charged twice for my last order (#48213) and nobody has refunded me after two weeks of emails. This is unacceptable, I want my money back immediately.",
+        "expected_request_type": "complaint",
+        "expected_urgency": "high"
+    },
+    {
+        "id": "sample_002",
+        "text": "The product I received was damaged in the box and clearly used, not new as advertised. Very disappointed with this purchase.",
+        "expected_request_type": "complaint",
+        "expected_urgency": "medium"
+    },
+    {
+        "id": "sample_003",
+        "text": "Your support agent hung up on me mid-call yesterday. I've been a loyal customer for 6 years and this is how I'm treated?",
+        "expected_request_type": "complaint",
+        "expected_urgency": "high"
+    },
+    {
+        "id": "sample_004",
+        "text": "I keep getting billed for a subscription I cancelled three months ago. Please stop charging my card and refund the last 3 charges.",
+        "expected_request_type": "complaint",
+        "expected_urgency": "high"
+    },
+    {
+        "id": "sample_005",
+        "text": "The delivery was 10 days late with zero communication. I had to reschedule my plans because of this.",
+        "expected_request_type": "complaint",
+        "expected_urgency": "medium"
+    },
+    {
+        "id": "sample_006",
+        "text": "What are your customer support hours on weekends?",
+        "expected_request_type": "general_enquiry",
+        "expected_urgency": "low"
+    },
+    {
+        "id": "sample_007",
+        "text": "Do you ship to Canada, and if so, how long does delivery usually take?",
+        "expected_request_type": "general_enquiry",
+        "expected_urgency": "low"
+    },
+    {
+        "id": "sample_008",
+        "text": "Can you tell me the difference between your Basic and Pro plans?",
+        "expected_request_type": "general_enquiry",
+        "expected_urgency": "low"
+    },
+    {
+        "id": "sample_009",
+        "text": "Is there a mobile app available for iOS, or is this web-only?",
+        "expected_request_type": "general_enquiry",
+        "expected_urgency": "low"
+    },
+    {
+        "id": "sample_010",
+        "text": "What payment methods do you accept for annual subscriptions?",
+        "expected_request_type": "general_enquiry",
+        "expected_urgency": "low"
+    },
+    {
+        "id": "sample_011",
+        "text": "I'd like to know your return policy window for electronics purchased online.",
+        "expected_request_type": "general_enquiry",
+        "expected_urgency": "low"
+    },
+    {
+        "id": "sample_012",
+        "text": "Please update the shipping address on my pending order #77210 to 45 Maple Street before it ships.",
+        "expected_request_type": "service_request",
+        "expected_urgency": "medium"
+    },
+    {
+        "id": "sample_013",
+        "text": "I need to upgrade my account from the Basic plan to Pro. Can you process this today?",
+        "expected_request_type": "service_request",
+        "expected_urgency": "low"
+    },
+    {
+        "id": "sample_014",
+        "text": "Can someone reset the password on my business account? I'm locked out and my recovery email is outdated.",
+        "expected_request_type": "service_request",
+        "expected_urgency": "medium"
+    },
+    {
+        "id": "sample_015",
+        "text": "I'd like to cancel my subscription effective at the end of this billing cycle.",
+        "expected_request_type": "service_request",
+        "expected_urgency": "low"
+    },
+    {
+        "id": "sample_016",
+        "text": "Please add an additional user seat to my team plan under the name of our new hire.",
+        "expected_request_type": "service_request",
+        "expected_urgency": "low"
+    },
+    {
+        "id": "sample_017",
+        "text": "I need an invoice reissued with our updated company tax ID for accounting purposes.",
+        "expected_request_type": "service_request",
+        "expected_urgency": "low"
+    },
+    {
+        "id": "sample_018",
+        "text": "This is the fourth time I'm contacting you about the same billing error and nobody has fixed it. I want to speak to a manager right now or I'm cancelling everything and disputing the charges with my bank.",
+        "expected_request_type": "escalation",
+        "expected_urgency": "critical"
+    },
+    {
+        "id": "sample_019",
+        "text": "Your product caused data loss on our production database last night. We have lost client data and need this escalated to engineering leadership immediately.",
+        "expected_request_type": "escalation",
+        "expected_urgency": "critical"
+    },
+    {
+        "id": "sample_020",
+        "text": "I was told 3 separate times by 3 different agents that my refund was processed. It has been 45 days and I still have nothing. I am filing a complaint with the BBB unless this is resolved today.",
+        "expected_request_type": "escalation",
+        "expected_urgency": "critical"
+    },
+    {
+        "id": "sample_021",
+        "text": "Our entire company account has been suspended without warning during our busiest week of the year. We need this reinstated urgently or we will be switching providers.",
+        "expected_request_type": "escalation",
+        "expected_urgency": "critical"
+    },
+    {
+        "id": "sample_022",
+        "text": "hey so like my thing isnt working right and idk what to do, its been kind of a problem for a bit now",
+        "expected_request_type": "general_enquiry",
+        "expected_urgency": "low"
+    },
+    {
+        "id": "sample_023",
+        "text": "The app crashes every time I try to export a report. This has happened 5 times today across different files.",
+        "expected_request_type": "complaint",
+        "expected_urgency": "medium"
+    },
+    {
+        "id": "sample_024",
+        "text": "Could you clarify whether the enterprise plan includes dedicated account management or is that a separate add-on?",
+        "expected_request_type": "general_enquiry",
+        "expected_urgency": "low"
+    },
+    {
+        "id": "sample_025",
+        "text": "Please transfer the billing owner role on our account from our old finance lead to me, as they've left the company.",
+        "expected_request_type": "service_request",
+        "expected_urgency": "medium"
+    }
+]
