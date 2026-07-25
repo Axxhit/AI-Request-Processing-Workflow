@@ -12,13 +12,21 @@ across multiple files, we keep them in ONE place. This means:
 import os
 from dotenv import load_dotenv
 
-# Load environment variables from .env file
+# Load environment variables from .env file (local dev)
 load_dotenv()
 
 # ──────────────────────────────────────────────
 # API Configuration
 # ──────────────────────────────────────────────
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
+# Try Streamlit Cloud secrets first, fall back to .env
+def _get_api_key():
+    try:
+        import streamlit as st
+        return st.secrets.get("GROQ_API_KEY", os.getenv("GROQ_API_KEY", ""))
+    except Exception:
+        return os.getenv("GROQ_API_KEY", "")
+
+GROQ_API_KEY = _get_api_key()
 GROQ_MODEL = "llama-3.3-70b-versatile"  # Best free model for classification + generation
 GROQ_TEMPERATURE_CLASSIFY = 0.1         # Low = deterministic classification (no creativity)
 GROQ_TEMPERATURE_GENERATE = 0.7         # Higher = more natural response writing
