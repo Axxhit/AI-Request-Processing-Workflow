@@ -95,7 +95,7 @@ Customer Request (Text/CSV/JSON)
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/ai-request-processor.git
+git clone https://github.com/Axxhit/ai-request-processor.git
 cd ai-request-processor
 
 # Install dependencies
